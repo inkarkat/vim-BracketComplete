@@ -1,4 +1,4 @@
-*BracketComplete.txt*   Insert mode completion that completes text inside various brackets.
+*BracketComplete.txt*   Insert mode completion for text inside various brackets.
 
 		      BRACKET COMPLETE    by Ingo Karkat
 							 *BracketComplete.vim*
@@ -57,7 +57,7 @@ To uninstall, use the |:RmVimball| command.
 DEPENDENCIES					*BracketComplete-dependencies*
 
 - Requires Vim 7.0 or higher.
-- Requires the |MotionComplete.vim| plugin (vimscript #0000).
+- Requires the |MotionComplete.vim| plugin (vimscript #4265).
 
 ==============================================================================
 CONFIGURATION				       *BracketComplete-configuration*
@@ -94,7 +94,7 @@ IDEAS						       *BracketComplete-ideas*
 ==============================================================================
 HISTORY						     *BracketComplete-history*
 
-GOAL
+1.00	12-Oct-2012
 First published version.
 
 0.01	02-Oct-2012
