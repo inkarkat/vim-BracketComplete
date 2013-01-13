@@ -1,4 +1,4 @@
-" BracketComplete.vim: Insert mode completion that completes text inside various brackets.
+" BracketComplete.vim: Insert mode completion for text inside various brackets.
 "
 " DEPENDENCIES:
 "   - Requires Vim 7.0 or higher.
