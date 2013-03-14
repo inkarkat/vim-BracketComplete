@@ -32,11 +32,11 @@ SEE ALSO								     *
 ==============================================================================
 USAGE						       *BracketComplete-usage*
 
-In insert mode, invoke the completion via CTRL-X ).
+In insert mode, invoke the completion via CTRL-X %.
 You can then search forward and backward via CTRL-N / CTRL-P, as usual.
 
-								  *i_CTRL-X_)*
-CTRL-X )		Find matches for the text before the cursor, up to the
+								  *i_CTRL-X_%*
+CTRL-X %		Find matches for the text before the cursor, up to the
 			previous bracket ( [ { < on the current line, and
 			offer matches of the entire text inside the brackets,
 			like the |i(| |i[| |i{| |i<| text objects.
@@ -80,7 +80,7 @@ To add an imaginary bracketing from : to ;, use: >
 If you want to use different mapping, map your keys to the
 <Plug>(BracketComplete...) mapping target _before_ sourcing the script
 (e.g. in your |vimrc|): >
-    imap <C-x>) <Plug>(BracketComplete)
+    imap <C-x>% <Plug>(BracketComplete)
 <
 ==============================================================================
 LIMITATIONS					 *BracketComplete-limitations*
@@ -94,6 +94,9 @@ IDEAS						       *BracketComplete-ideas*
 ==============================================================================
 HISTORY						     *BracketComplete-history*
 
+1.01	14-Jan-2013
+CHG: Change default mapping to the more intuitive i_CTRL-X_%.
+
 1.00	12-Oct-2012
 First published version.
 
@@ -101,7 +104,7 @@ First published version.
 Started development.
 
 ==============================================================================
-Copyright: (C) 2012 Ingo Karkat
+Copyright: (C) 2012-2013 Ingo Karkat
 The VIM LICENSE applies to this script; see |copyright|.
 
 Maintainer:	Ingo Karkat <ingo@karkat.de>
