@@ -4,12 +4,14 @@
 "   - Requires Vim 7.0 or higher.
 "   - BracketComplete.vim autoload script
 "
-" Copyright: (C) 2012 Ingo Karkat
+" Copyright: (C) 2012-2013 Ingo Karkat
 "   The VIM LICENSE applies to this script; see ':help copyright'.
 "
 " Maintainer:	Ingo Karkat <ingo@karkat.de>
 "
 " REVISION	DATE		REMARKS
+"   1.01.002	14-Jan-2013	CHG: Change default mapping to the more
+"				intuitive i_CTRL-X_%.
 "   1.00.001	02-Oct-2012	file creation
 
 " Avoid installing twice or when in unsupported Vim version.
@@ -37,7 +39,7 @@ endif
 
 inoremap <script> <expr> <Plug>(BracketComplete) BracketComplete#Expr()
 if ! hasmapto('<Plug>(BracketComplete)', 'i')
-    imap <C-x>) <Plug>(BracketComplete)
+    imap <C-x>% <Plug>(BracketComplete)
 endif
 
 let &cpo = s:save_cpo
