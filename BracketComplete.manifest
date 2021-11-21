@@ -1,0 +1,3 @@
+autoload/BracketComplete.vim
+plugin/BracketComplete.vim
+doc/BracketComplete.txt
